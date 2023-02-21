@@ -6,7 +6,10 @@ const QuoteDetail = () =>
     const params = useParams()
 
     return (
-        <h1>Quotes in detail</h1>
+        <>
+            <h1>Quotes in detail</h1>
+            <p>{params.quoteId}</p>
+        </>
     )
 }
 
