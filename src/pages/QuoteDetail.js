@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 const QuoteDetail = () =>
 {
@@ -9,7 +9,6 @@ const QuoteDetail = () =>
         <>
             <h1>Quotes in detail</h1>
             <p>{params.quoteId}</p>
-
         </>
     )
 }
