@@ -8,9 +8,9 @@ function App()
   return (
     <div>
       <Routes>
-        <Route to='/quotes' element={<AllQuotes />} />
-        <Route to='/quotes/:quoteId' element={<QuoteDetail />} />
-        <Route to='/new-quote' element={<NewQuote />} />
+        <Route path='/' element={<AllQuotes />} />
+        <Route path='/quotes/:quoteId' element={<QuoteDetail />} />
+        <Route path='/new-quote' element={<NewQuote />} />
       </Routes>
     </div>
   );
