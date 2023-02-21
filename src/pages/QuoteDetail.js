@@ -3,7 +3,7 @@ import React from 'react'
 const QuoteDetail = () =>
 {
     return (
-        <div>QuoteDetail</div>
+        <h1>Quotes in detail</h1>
     )
 }
 
